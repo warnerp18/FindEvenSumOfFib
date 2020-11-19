@@ -11,4 +11,3 @@ const getEvenValueOfFibonnacci = (num) => {
 }
 
 getEvenValueOfFibonnacci(12);
-
