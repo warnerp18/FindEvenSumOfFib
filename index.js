@@ -1,6 +1,6 @@
 const getEvenValueOfFibonnacci = (num) => {
   let value;
-  const worker = new window.Worker('fibonacci-worker.js');
+  const worker = new Worker('fibonacci-worker.js');
 
   worker.postMessage(num);
   worker.onerror = err => err;
